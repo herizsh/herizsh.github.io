@@ -14,43 +14,43 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Heri's Dev Notes
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Journey in Development
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Welcome to 'Heri's Dev Notes' - a personal diary of a developer's journey. This site is a treasure trove of insights, experiences, and reflections gathered along my path in the tech world. From the first lines of code to complex projects, I document the highs and lows, the learning curves, and the eureka moments. Whether you're a seasoned developer or just starting out, join me in exploring the ever-evolving landscape of technology.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://herizsh.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: herizsh # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: pacar_iu # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Heri Susanto
+  email: susantoh41@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/pacar_iu # change to your twitter homepage
+    - https://github.com/herizsh # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/heri-susanto-id
 
-google_site_verification: # fill in to your verification string
+google_site_verification: VwtjHYZt5fxcKibtZ5EMv9F0krNK5IKnxGoKBpLUdHw
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-BM7W46GR0V
 
 # Prefer color scheme setting.
 #
@@ -63,7 +63,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -116,7 +116,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "herizsh.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
