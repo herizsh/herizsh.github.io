@@ -44,7 +44,7 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/heri-susanto-id
 
-google_site_verification: VwtjHYZt5fxcKibtZ5EMv9F0krNK5IKnxGoKBpLUdHw
+google_site_verification: Gm3nXDGx8Ct26atjjSr2LJt43Gde9gPes8zfx1Itmgo
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -73,7 +73,7 @@ theme_mode: dark
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/avatar-heri-susanto.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
