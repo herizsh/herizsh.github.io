@@ -1,6 +1,6 @@
 ---
 title: How to Use the Chirpy Theme in Jekyll
-date: 2024-01-27 +0700
+date: 2024-01-27 02:53:31 +0700
 categories: [jekyll, themes, chirpy]
 tags: [jekyll, chirpy, tutorial]
 ---
