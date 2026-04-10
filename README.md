@@ -13,4 +13,4 @@ Hello! I’m Heri, the voice and mind behind ‘Heri’s Dev Notes’. I’m a p
 
 Thank you for visiting, and I hope you find something here that sparks your interest and keeps you coming back!
 
-— Heri Susanto
+- Heri Susanto
