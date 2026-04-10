@@ -4,20 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heri Susanto - Principal Engineer</title>
+  <title>Heri Susanto · Principal Engineer</title>
   <meta name="description"
-    content="Principal Engineer with 7+ years of experience in backend development, system design, and technical leadership.">
-  <meta property="og:title" content="Heri Susanto - Principal Engineer">
+    content="Principal engineer based in Jakarta. Designing distributed systems and leading the engineers who build them.">
+  <meta property="og:title" content="Heri Susanto · Principal Engineer">
   <meta property="og:description"
-    content="Principal Engineer specializing in scalable distributed systems, data pipelines, and engineering leadership.">
+    content="Principal engineer based in Jakarta. Designing distributed systems and leading the engineers who build them.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://herizsh.github.io">
+  <meta property="og:url" content="https://heri.me">
+  <meta name="theme-color" content="#faf9f6">
   <meta name="google-site-verification" content="Gm3nXDGx8Ct26atjjSr2LJt43Gde9gPes8zfx1Itmgo">
   <link rel="icon" href="assets/img/favicons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -25,531 +27,386 @@
   <!-- Navigation -->
   <nav class="nav" id="nav">
     <div class="nav-container">
-      <a href="#hero" class="nav-logo">&lt;HS /&gt;</a>
+      <a href="#top" class="nav-logo">Heri.</a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-menu" id="nav-menu">
         <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#certifications" class="nav-link">Certs</a></li>
-        <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="hero-bg-grid"></div>
-    <div class="hero-content">
-      <div class="hero-text">
-        <p class="hero-greeting animate-in">Hi, I'm</p>
-        <h1 class="hero-name animate-in delay-1">Heri Susanto<span class="accent">.</span></h1>
-        <h2 class="hero-title animate-in delay-2">Principal Engineer</h2>
-        <p class="hero-description animate-in delay-3">
-          I architect scalable distributed systems and lead engineering teams to build
-          reliable, high-performance infrastructure. Currently defining technical vision
-          across 39+ engineers.
-        </p>
-        <div class="hero-actions animate-in delay-4">
-          <a href="#projects" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-outline">Get In Touch</a>
-        </div>
-        <div class="hero-stats animate-in delay-4">
-          <div class="stat">
-            <span class="stat-number" data-count="7">0</span><span class="accent">+</span>
-            <span class="stat-label">Years Exp</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number" data-count="39">0</span><span class="accent">+</span>
-            <span class="stat-label">Engineers Led</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number" data-count="5">0</span><span class="accent">+</span>
-            <span class="stat-label">Gov Projects</span>
-          </div>
-        </div>
-      </div>
-      <div class="hero-visual animate-in delay-2">
-        <div class="hero-image-wrapper">
-          <img src="assets/img/avatar-heri-susanto.jpg" alt="Heri Susanto" class="hero-image">
-          <div class="hero-image-ring"></div>
-          <div class="hero-image-ring hero-image-ring--outer"></div>
-        </div>
-        <div class="floating-badge badge-1">
-          <i class="fab fa-golang"></i> Go
-        </div>
-        <div class="floating-badge badge-2">
-          <i class="fab fa-python"></i> Python
-        </div>
-        <div class="floating-badge badge-3">
-          <i class="fas fa-database"></i> PostgreSQL
-        </div>
-        <div class="floating-badge badge-4">
-          <i class="fas fa-cloud"></i> GCP
-        </div>
-      </div>
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <p class="hero-eyebrow">Heri Susanto · Jakarta, Indonesia</p>
+    <h1 class="hero-title">
+      Principal engineer<br>
+      building reliable<br>
+      <em>systems at scale.</em>
+    </h1>
+    <p class="hero-description">
+      I design distributed systems and lead the engineers who build them.
+      Seven years shipping data infrastructure, fraud prevention, and
+      government-grade platforms across Indonesia.
+    </p>
+    <div class="hero-status">
+      <span class="status-dot"></span>
+      Currently Principal Engineer at Bangunindo Teknusa Jaya
     </div>
-    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
-      <div class="scroll-mouse">
-        <div class="scroll-wheel"></div>
-      </div>
-    </a>
-  </section>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">View selected work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </header>
 
-  <!-- About Section -->
+  <!-- About -->
   <section class="section" id="about">
-    <div class="container">
-      <h2 class="section-title reveal">
-        <span class="section-number">01.</span> About Me
-      </h2>
-      <div class="about-grid">
-        <div class="about-text reveal">
-          <p>
-            I'm a <strong>Principal Engineer</strong> at PT. Bangunindo Teknusa Jaya with a passion
-            for building robust, scalable systems. My journey started as an Oracle Developer and
-            evolved through backend development, technical leadership, and now engineering strategy.
-          </p>
-          <p>
-            I've had the privilege of working at <strong>Tokopedia</strong> (one of Indonesia's
-            largest tech companies), building <strong>data pipelines for Telkomsel</strong>,
-            and delivering systems for <strong>Indonesian government ministries</strong>.
-          </p>
-          <p>
-            Today, I define technical vision across the organization, lead architecture reviews,
-            and mentor the next generation of engineering leaders. I specialize in distributed
-            systems, database optimization, monitoring infrastructure, and cloud-native architecture.
-          </p>
-        </div>
-        <div class="about-highlights reveal">
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="fas fa-sitemap"></i></div>
-            <h3>System Design</h3>
-            <p>Architect scalable systems handling millions of events with high availability</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="fas fa-users-cog"></i></div>
-            <h3>Team Leadership</h3>
-            <p>Managing 39+ backend and data engineers across multiple teams</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="fas fa-stream"></i></div>
-            <h3>Data Engineering</h3>
-            <p>Building data pipelines with Kafka, NiFi, and ClickhouseDB</p>
-          </div>
-          <div class="highlight-card">
-            <div class="highlight-icon"><i class="fas fa-shield-alt"></i></div>
-            <h3>Infrastructure</h3>
-            <p>Cloud-native on GCP with Kubernetes, monitoring with Zabbix & Prometheus</p>
-          </div>
+    <div class="wrap">
+      <div class="section-header">
+        <span class="section-label">About</span>
+        <h2 class="section-title">A principal engineer and team builder.</h2>
+      </div>
+
+      <div class="about-intro">
+        <img src="assets/img/avatar-heri-susanto.jpg" alt="Heri Susanto" class="about-avatar">
+        <div class="about-identity">
+          <strong>Heri Susanto</strong>
+          <span>Principal Engineer · 7+ yrs</span>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Experience Section -->
-  <section class="section section--dark" id="experience">
-    <div class="container">
-      <h2 class="section-title reveal">
-        <span class="section-number">02.</span> Experience
-      </h2>
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-marker active"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Principal Engineer</h3>
-                <p class="timeline-company">PT. Bangunindo Teknusa Jaya</p>
-              </div>
-              <span class="timeline-date">Apr 2026 - Present</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Define technical vision and long-term architecture strategy across the engineering organization</li>
-              <li>Drive cross-team alignment on engineering standards, system design patterns, and best practices</li>
-              <li>Lead architecture reviews and provide technical direction for high-impact projects</li>
-              <li>Mentor and level up senior and lead engineers across multiple teams</li>
-              <li>Evaluate and introduce new technologies to improve system scalability and developer productivity</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Backend Lead</h3>
-                <p class="timeline-company">PT. Bangunindo Teknusa Jaya</p>
-              </div>
-              <span class="timeline-date">Jan 2023 - Mar 2026</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Led and managed 39 backend and data engineers across multiple teams and projects</li>
-              <li>Architected and designed systems for every new project, ensuring scalability and reliability</li>
-              <li>Built a centralized alert system across all company services, improving incident response</li>
-              <li>Provided hands-on technical guidance to teams managing Zabbix monitoring for enterprise clients</li>
-              <li>Drove technical standards, code review processes, and engineering best practices company-wide</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Software Engineer</h3>
-                <p class="timeline-company">PT. Tokopedia</p>
-              </div>
-              <span class="timeline-date">Jun 2022 - Apr 2023</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Developed new features and improvements on existing high-traffic services</li>
-              <li>Configured auto-scaling (prescale) for events and large-scale load testing</li>
-              <li>Served as PIC for Tech Improvement initiatives across the team</li>
-              <li>Set up CI/CD deployment pipelines using Jenkins</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Technical Lead</h3>
-                <p class="timeline-company">PT. Bangunindo Teknusa Jaya</p>
-              </div>
-              <span class="timeline-date">Jul 2021 - May 2022</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Designed system architectures and VM dimensioning for client infrastructure</li>
-              <li>Managed small teams and coordinated across multiple concurrent projects</li>
-              <li>Set up deployment pipelines and containerization with Docker</li>
-              <li>Developed systems from scratch using Go and Python</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Backend Developer</h3>
-                <p class="timeline-company">PT. Bangunindo Teknusa Jaya</p>
-              </div>
-              <span class="timeline-date">Jul 2020 - Jun 2021</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Developed backend features and services using Go and Python</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Oracle Developer</h3>
-                <p class="timeline-company">PT. Visionet Data Internasional</p>
-              </div>
-              <span class="timeline-date">Mar 2019 - Nov 2019</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Developed and implemented new user requirements for Oracle-based applications</li>
-              <li>Provided service and support for application-related issues</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section class="section" id="projects">
-    <div class="container">
-      <h2 class="section-title reveal">
-        <span class="section-number">03.</span> Key Projects
-      </h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="project-card-header">
-            <div class="project-icon"><i class="fas fa-landmark"></i></div>
-            <span class="project-badge">Government</span>
-          </div>
-          <h3 class="project-name">Ministry of Home Affairs</h3>
-          <p class="project-subtitle">Republic of Indonesia - 2025</p>
-          <p class="project-desc">
-            Developed internal dashboard for ministry operations. Optimized PostgreSQL
-            database configuration to prevent downtime and maximize resource utilization.
-            Configured monitoring triggers and alerting system for proactive incident detection.
-          </p>
-          <div class="project-tech">
-            <span>PostgreSQL</span>
-            <span>Dashboard</span>
-            <span>Monitoring</span>
-            <span>Alerting</span>
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-card-header">
-            <div class="project-icon"><i class="fas fa-palette"></i></div>
-            <span class="project-badge">Government</span>
-          </div>
-          <h3 class="project-name">Ministry of Creative Economy</h3>
-          <p class="project-subtitle">Landing Page & Dashboard - Nov 2024</p>
-          <p class="project-desc">
-            Built landing page and internal dashboard using PHP (CMS) and React.js.
-            Implemented Redis for caching and queue workers with Nginx as reverse proxy.
-          </p>
-          <div class="project-tech">
-            <span>PHP</span>
-            <span>React.js</span>
-            <span>Redis</span>
-            <span>Nginx</span>
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-card-header">
-            <div class="project-icon"><i class="fas fa-robot"></i></div>
-            <span class="project-badge badge--accent">Tokopedia</span>
-          </div>
-          <h3 class="project-name">Antibot & Risk Device</h3>
-          <p class="project-subtitle">Fraud Prevention System - Jun 2022</p>
-          <p class="project-desc">
-            Built fraud prevention system for one of Indonesia's largest e-commerce platforms.
-            Used Golang, NSQ for message queues, React frontend, and Elasticsearch for logging.
-          </p>
-          <div class="project-tech">
-            <span>Go</span>
-            <span>NSQ</span>
-            <span>React</span>
-            <span>Elasticsearch</span>
-            <span>Ansible</span>
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-card-header">
-            <div class="project-icon"><i class="fas fa-stream"></i></div>
-            <span class="project-badge badge--green">Telco</span>
-          </div>
-          <h3 class="project-name">Telkomsel Data Pipeline</h3>
-          <p class="project-subtitle">Data Stream System - Dec 2020</p>
-          <p class="project-desc">
-            Designed and built end-to-end data pipeline using Kafka for event streaming,
-            ClickhouseDB for analytics, and Apache NiFi for data orchestration.
-          </p>
-          <div class="project-tech">
-            <span>Kafka</span>
-            <span>ClickhouseDB</span>
-            <span>Apache NiFi</span>
-            <span>Python</span>
-            <span>Docker</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="section section--dark" id="skills">
-    <div class="container">
-      <h2 class="section-title reveal">
-        <span class="section-number">04.</span> Tech Stack
-      </h2>
-      <div class="skills-container">
-        <div class="skill-category reveal">
-          <h3><i class="fas fa-code"></i> Languages</h3>
-          <div class="skill-items">
-            <div class="skill-item">
-              <div class="skill-info"><span>Go</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="90"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-info"><span>Python</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="90"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-info"><span>PHP</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="85"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-info"><span>JavaScript</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="85"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3><i class="fas fa-database"></i> Databases</h3>
-          <div class="skill-items">
-            <div class="skill-item">
-              <div class="skill-info"><span>PostgreSQL</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="92"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-info"><span>TimescaleDB</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="85"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-info"><span>ClickhouseDB</span><span>Intermediate</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="70"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-info"><span>Redis</span><span>Advanced</span></div>
-              <div class="skill-bar">
-                <div class="skill-progress" data-width="85"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
-          <div class="skill-tags">
-            <span class="tag">Google Cloud Platform</span>
-            <span class="tag">Kubernetes</span>
-            <span class="tag">Docker</span>
-            <span class="tag">Linux</span>
-            <span class="tag">Nginx</span>
-            <span class="tag">Hadoop</span>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3><i class="fas fa-broadcast-tower"></i> Streaming & Monitoring</h3>
-          <div class="skill-tags">
-            <span class="tag">Kafka</span>
-            <span class="tag">NSQ</span>
-            <span class="tag">Apache NiFi</span>
-            <span class="tag">Zabbix</span>
-            <span class="tag">Prometheus</span>
-            <span class="tag">Grafana</span>
-            <span class="tag">Telegram Bot</span>
-            <span class="tag">Elasticsearch</span>
-          </div>
-        </div>
-        <div class="skill-category reveal">
-          <h3><i class="fas fa-cogs"></i> CI/CD & Tools</h3>
-          <div class="skill-tags">
-            <span class="tag">Jenkins</span>
-            <span class="tag">Ansible</span>
-            <span class="tag">Git</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Certifications Section -->
-  <section class="section" id="certifications">
-    <div class="container">
-      <h2 class="section-title reveal">
-        <span class="section-number">05.</span> Certifications
-      </h2>
-      <div class="certs-grid">
-        <div class="cert-card reveal">
-          <div class="cert-icon"><i class="fab fa-google"></i></div>
-          <div class="cert-info">
-            <h3>Professional Cloud Architect</h3>
-            <p>Google Cloud Certified</p>
-            <span class="cert-year">2025</span>
-          </div>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-icon"><i class="fas fa-server"></i></div>
-          <div class="cert-info">
-            <h3>PowerEdge Foundations v2</h3>
-            <p>Dell Technologies</p>
-            <span class="cert-year">2025</span>
-          </div>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
-          <div class="cert-info">
-            <h3>Certified Specialist</h3>
-            <p>Zabbix</p>
-            <span class="cert-year">2024</span>
-          </div>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-icon"><i class="fab fa-js-square"></i></div>
-          <div class="cert-info">
-            <h3>Full Stack JavaScript Immersive</h3>
-            <p>Hacktiv8</p>
-            <span class="cert-year">2020</span>
-          </div>
-        </div>
-        <div class="cert-card reveal">
-          <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
-          <div class="cert-info">
-            <h3>Database Administration Fundamentals</h3>
-            <p>Microsoft Technology Associate (MTA)</p>
-            <span class="cert-year">2018</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="section section--dark" id="contact">
-    <div class="container">
-      <h2 class="section-title reveal">
-        <span class="section-number">06.</span> Get In Touch
-      </h2>
-      <div class="contact-content reveal">
-        <p class="contact-text">
-          I'm always open to discussing new opportunities, interesting projects,
-          or ways to collaborate. Whether you need a Principal Engineer's perspective
-          on system design or want to build something together - let's connect.
+      <div class="prose">
+        <p>
+          My work sits at the intersection of systems architecture and people. I care
+          as much about the shape of a database query as I do about how the engineer
+          writing it is growing. The best infrastructure, in my experience, is the
+          kind no one has to think about, and the best teams are the ones that make
+          that possible.
         </p>
-        <a href="mailto:susantoh41@gmail.com" class="btn btn-primary btn-lg">
-          <i class="fas fa-envelope"></i> Say Hello
-        </a>
-        <div class="contact-links">
-          <a href="https://github.com/herizsh" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://twitter.com/pacar_iu" target="_blank" rel="noopener" aria-label="Twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="mailto:susantoh41@gmail.com" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </div>
+        <p>
+          I started my career as an Oracle developer, spent time building end-to-end
+          data pipelines for <strong>Telkomsel</strong>, and shipped fraud prevention systems
+          at <strong>Tokopedia</strong> (one of Indonesia's largest e-commerce platforms).
+          Today I define technical direction across <strong>39 engineers</strong>
+          delivering systems for Indonesian government ministries.
+        </p>
+        <p>
+          What I'm focused on now: system reliability, engineering culture, mentoring
+          the next wave of technical leaders, and the unglamorous work of making
+          complex infrastructure <em>boring</em>.
+        </p>
       </div>
+    </div>
+  </section>
+
+  <!-- Selected Work -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-header">
+        <span class="section-label">Selected Work</span>
+        <h2 class="section-title">Things I've shipped.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="entry entry--work entry--featured">
+          <div class="entry-year">2025</div>
+          <div class="entry-body">
+            <h3>Ministry of Home Affairs</h3>
+            <p class="entry-meta">Republic of Indonesia · Internal Dashboard</p>
+            <p>
+              An operations dashboard for the ministry's core workflows. Tuned
+              PostgreSQL for zero-downtime operation under sustained load, and
+              shipped proactive monitoring with alert triggers so incidents are
+              caught before they reach users.
+            </p>
+            <div class="entry-tech">
+              <span>PostgreSQL</span><span>Observability</span><span>Alerting</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="entry entry--work">
+          <div class="entry-year">2024</div>
+          <div class="entry-body">
+            <h3>Ministry of Creative Economy</h3>
+            <p class="entry-meta">Public Landing Page · Internal Dashboard</p>
+            <p>
+              A public-facing landing page and internal dashboard built on PHP
+              and React. Redis-backed caching and queue workers behind Nginx
+              kept the platform responsive through launch traffic.
+            </p>
+            <div class="entry-tech">
+              <span>PHP</span><span>React</span><span>Redis</span><span>Nginx</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="entry entry--work">
+          <div class="entry-year">2022</div>
+          <div class="entry-body">
+            <h3>Tokopedia · Antibot &amp; Risk Device</h3>
+            <p class="entry-meta">Fraud Prevention Platform</p>
+            <p>
+              A fraud prevention system protecting one of Indonesia's largest
+              e-commerce platforms. Built in Go with NSQ for message queues,
+              a React frontend for investigators, and Elasticsearch for
+              forensic search across events.
+            </p>
+            <div class="entry-tech">
+              <span>Go</span><span>NSQ</span><span>React</span><span>Elasticsearch</span><span>Ansible</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="entry entry--work">
+          <div class="entry-year">2020</div>
+          <div class="entry-body">
+            <h3>Telkomsel · Data Pipeline</h3>
+            <p class="entry-meta">End-to-end Streaming Infrastructure</p>
+            <p>
+              Designed and built an end-to-end data pipeline for Indonesia's
+              largest telco. Kafka for streaming, ClickHouse for analytics at
+              rest, and Apache NiFi orchestrating the data flow between them.
+            </p>
+            <div class="entry-tech">
+              <span>Kafka</span><span>ClickHouse</span><span>Apache NiFi</span><span>Python</span><span>Docker</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section-header">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Where I've worked.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="entry">
+          <div class="entry-year">2026 -</div>
+          <div class="entry-body">
+            <h3>Principal Engineer</h3>
+            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
+            <p>
+              Defining technical vision and long-term architecture strategy
+              across the engineering organization. Leading architecture
+              reviews, driving cross-team alignment on standards and patterns,
+              mentoring senior and lead engineers.
+            </p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-year">2023 - 26</div>
+          <div class="entry-body">
+            <h3>Backend Lead</h3>
+            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
+            <p>
+              Led 39 backend and data engineers across multiple teams and
+              projects. Architected systems for every new engagement, built a
+              centralized alerting platform across all company services, and
+              drove engineering standards company-wide.
+            </p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-year">2022 - 23</div>
+          <div class="entry-body">
+            <h3>Software Engineer</h3>
+            <p class="entry-meta">Tokopedia</p>
+            <p>
+              Shipped features on high-traffic services, configured prescale
+              for major events and load tests, led tech improvement
+              initiatives, and set up Jenkins CI/CD pipelines.
+            </p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-year">2021 - 22</div>
+          <div class="entry-body">
+            <h3>Technical Lead</h3>
+            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
+            <p>
+              Designed architectures and VM dimensioning for client
+              infrastructure. Managed small teams across multiple concurrent
+              projects. Built systems from scratch in Go and Python.
+            </p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-year">2020 - 21</div>
+          <div class="entry-body">
+            <h3>Backend Developer</h3>
+            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
+            <p>
+              Built backend features and services in Go and Python.
+            </p>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-year">2019</div>
+          <div class="entry-body">
+            <h3>Oracle Developer</h3>
+            <p class="entry-meta">Visionet Data Internasional</p>
+            <p>
+              Developed and supported Oracle-based applications, shipping
+              new user requirements and keeping production systems healthy.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Toolkit -->
+  <section class="section" id="toolkit">
+    <div class="wrap">
+      <div class="section-header">
+        <span class="section-label">Toolkit</span>
+        <h2 class="section-title">What I reach for.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="entry entry--toolkit">
+          <div class="entry-year">Languages</div>
+          <div class="toolkit-items">
+            <span>Go</span><span>Python</span><span>PHP</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="entry entry--toolkit">
+          <div class="entry-year">Data</div>
+          <div class="toolkit-items">
+            <span>PostgreSQL</span><span>TimescaleDB</span><span>ClickHouse</span><span>Redis</span><span>Elasticsearch</span>
+          </div>
+        </article>
+
+        <article class="entry entry--toolkit">
+          <div class="entry-year">Infra</div>
+          <div class="toolkit-items">
+            <span>Google Cloud</span><span>Kubernetes</span><span>Docker</span><span>Linux</span><span>Nginx</span><span>Hadoop</span>
+          </div>
+        </article>
+
+        <article class="entry entry--toolkit">
+          <div class="entry-year">Streaming</div>
+          <div class="toolkit-items">
+            <span>Kafka</span><span>NSQ</span><span>Apache NiFi</span>
+          </div>
+        </article>
+
+        <article class="entry entry--toolkit">
+          <div class="entry-year">Observability</div>
+          <div class="toolkit-items">
+            <span>Zabbix</span><span>Prometheus</span><span>Grafana</span>
+          </div>
+        </article>
+
+        <article class="entry entry--toolkit">
+          <div class="entry-year">Delivery</div>
+          <div class="toolkit-items">
+            <span>Jenkins</span><span>Ansible</span><span>Git</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section" id="certifications">
+    <div class="wrap">
+      <div class="section-header">
+        <span class="section-label">Certifications</span>
+        <h2 class="section-title">Credentials.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="entry entry--cert">
+          <div class="entry-year">2025</div>
+          <div class="entry-body">
+            <h4>Professional Cloud Architect</h4>
+            <span>Google Cloud Certified</span>
+          </div>
+        </article>
+
+        <article class="entry entry--cert">
+          <div class="entry-year">2025</div>
+          <div class="entry-body">
+            <h4>PowerEdge Foundations v2</h4>
+            <span>Dell Technologies</span>
+          </div>
+        </article>
+
+        <article class="entry entry--cert">
+          <div class="entry-year">2024</div>
+          <div class="entry-body">
+            <h4>Certified Specialist</h4>
+            <span>Zabbix</span>
+          </div>
+        </article>
+
+        <article class="entry entry--cert">
+          <div class="entry-year">2020</div>
+          <div class="entry-body">
+            <h4>Full Stack JavaScript Immersive</h4>
+            <span>Hacktiv8</span>
+          </div>
+        </article>
+
+        <article class="entry entry--cert">
+          <div class="entry-year">2018</div>
+          <div class="entry-body">
+            <h4>Database Administration Fundamentals</h4>
+            <span>Microsoft Technology Associate</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="contact-title">
+      Let's build<br>
+      something <em>together.</em>
+    </h2>
+    <p class="contact-text">
+      I'm always open to a conversation, whether it's about system design,
+      engineering leadership, or a project you're trying to get off the ground.
+      The inbox is open.
+    </p>
+    <div class="hero-actions">
+      <a href="mailto:susantoh41@gmail.com" class="btn btn-primary">
+        susantoh41@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener" class="btn btn-ghost">
+        Connect on LinkedIn
+      </a>
+    </div>
+    <div class="contact-links">
+      <a href="https://github.com/herizsh" target="_blank" rel="noopener" class="contact-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
+      <a href="https://twitter.com/pacar_iu" target="_blank" rel="noopener" class="contact-link">Twitter</a>
+      <a href="mailto:susantoh41@gmail.com" class="contact-link">Email</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <p>Designed & Built by <strong>Heri Susanto</strong></p>
-      <p class="footer-sub">Principal Engineer - Building scalable systems</p>
-    </div>
+    <span>© <span id="year">2026</span> Heri Susanto</span>
+    <span>Designed &amp; built in Jakarta</span>
   </footer>
 
   <!-- Google Analytics -->
