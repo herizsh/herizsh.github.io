@@ -24,6 +24,8 @@
 </head>
 
 <body>
+  <a href="#main" class="skip">Skip to content</a>
+
   <!-- Navigation -->
   <nav class="nav" id="nav">
     <div class="nav-container">
@@ -35,379 +37,383 @@
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#work" class="nav-link">Work</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#toolkit" class="nav-link">Toolkit</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <header class="hero" id="top">
-    <p class="hero-eyebrow">Heri Susanto · Jakarta, Indonesia</p>
-    <h1 class="hero-title">
-      Principal engineer<br>
-      building reliable<br>
-      <em>systems at scale.</em>
-    </h1>
-    <p class="hero-description">
-      I design distributed systems and lead the engineers who build them.
-      Seven years shipping data infrastructure, fraud prevention, and
-      government-grade platforms across Indonesia.
-    </p>
-    <div class="hero-status">
-      <span class="status-dot"></span>
-      Currently Principal Engineer at Bangunindo Teknusa Jaya
-    </div>
-    <div class="hero-actions">
-      <a href="#work" class="btn btn-primary">View selected work</a>
-      <a href="#contact" class="btn btn-ghost">Get in touch</a>
-    </div>
-  </header>
+  <main id="main">
+    <!-- Hero -->
+    <header class="hero" id="top">
+      <p class="hero-eyebrow">Heri Susanto · Jakarta, Indonesia</p>
+      <h1 class="hero-title">
+        Principal engineer<br>
+        building reliable<br>
+        <em>systems at scale.</em>
+      </h1>
+      <p class="hero-description">
+        I design distributed systems and lead the engineers who build them.
+        Shipping data infrastructure, fraud prevention, and government-grade
+        platforms across Indonesia.
+      </p>
 
-  <!-- About -->
-  <section class="section" id="about">
-    <div class="wrap">
-      <div class="section-header">
-        <span class="section-label">About</span>
-        <h2 class="section-title">A principal engineer and team builder.</h2>
+      <ul class="hero-kpis">
+        <li><strong>7+</strong><span>years shipping</span></li>
+        <li><strong>39</strong><span>engineers led</span></li>
+        <li><strong>4</strong><span>sectors delivered</span></li>
+      </ul>
+
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        Currently Principal Engineer at Bangunindo Teknusa Jaya
       </div>
 
-      <div class="about-intro">
-        <img src="assets/img/avatar-heri-susanto.jpg" alt="Heri Susanto" class="about-avatar">
-        <div class="about-identity">
-          <strong>Heri Susanto</strong>
-          <span>Principal Engineer · 7+ yrs</span>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View selected work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="section-eyebrow">About</span>
+          <h2 class="section-title">A principal engineer and team builder.</h2>
+        </header>
+
+        <p class="about-byline"><strong>Heri Susanto</strong> · Principal Engineer · 7+ yrs</p>
+
+        <div class="prose">
+          <p>
+            My work sits at the intersection of systems architecture and people. I care
+            as much about the shape of a database query as I do about how the engineer
+            writing it is growing. The best infrastructure, in my experience, is the
+            kind no one has to think about, and the best teams are the ones that make
+            that possible.
+          </p>
+          <p>
+            I started my career as an Oracle developer, spent time building end-to-end
+            data pipelines for <strong>Telkomsel</strong>, and shipped fraud prevention systems
+            at <strong>Tokopedia</strong> (one of Indonesia's largest e-commerce platforms).
+            Today I define technical direction across <strong>39 engineers</strong>
+            delivering systems for Indonesian government ministries.
+          </p>
+          <p>
+            What I'm focused on now: system reliability, engineering culture, mentoring
+            the next wave of technical leaders, and the unglamorous work of making
+            complex infrastructure <em>boring</em>.
+          </p>
         </div>
       </div>
+    </section>
 
-      <div class="prose">
-        <p>
-          My work sits at the intersection of systems architecture and people. I care
-          as much about the shape of a database query as I do about how the engineer
-          writing it is growing. The best infrastructure, in my experience, is the
-          kind no one has to think about, and the best teams are the ones that make
-          that possible.
-        </p>
-        <p>
-          I started my career as an Oracle developer, spent time building end-to-end
-          data pipelines for <strong>Telkomsel</strong>, and shipped fraud prevention systems
-          at <strong>Tokopedia</strong> (one of Indonesia's largest e-commerce platforms).
-          Today I define technical direction across <strong>39 engineers</strong>
-          delivering systems for Indonesian government ministries.
-        </p>
-        <p>
-          What I'm focused on now: system reliability, engineering culture, mentoring
-          the next wave of technical leaders, and the unglamorous work of making
-          complex infrastructure <em>boring</em>.
-        </p>
-      </div>
-    </div>
-  </section>
+    <!-- Selected Work -->
+    <section class="section" id="work">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="section-eyebrow">Selected Work</span>
+          <h2 class="section-title">Things I've shipped.</h2>
+        </header>
 
-  <!-- Selected Work -->
-  <section class="section" id="work">
-    <div class="wrap">
-      <div class="section-header">
-        <span class="section-label">Selected Work</span>
-        <h2 class="section-title">Things I've shipped.</h2>
-      </div>
-
-      <div class="timeline">
-        <article class="entry entry--work entry--featured">
-          <div class="entry-year">2025</div>
-          <div class="entry-body">
-            <h3>Ministry of Home Affairs</h3>
-            <p class="entry-meta">Republic of Indonesia · Internal Dashboard</p>
-            <p>
+        <div class="cases">
+          <article class="case surface">
+            <header class="case-head">
+              <span class="case-year">2025</span>
+              <span class="case-cat">Government</span>
+              <span class="case-tag case-tag--latest">Latest</span>
+            </header>
+            <h3 class="case-title">Ministry of Home Affairs</h3>
+            <p class="case-meta">Republic of Indonesia · Internal Dashboard</p>
+            <p class="case-body">
               An operations dashboard for the ministry's core workflows. Tuned
               PostgreSQL for zero-downtime operation under sustained load, and
               shipped proactive monitoring with alert triggers so incidents are
               caught before they reach users.
             </p>
-            <div class="entry-tech">
-              <span>PostgreSQL</span><span>Observability</span><span>Alerting</span>
-            </div>
-          </div>
-        </article>
+            <dl class="case-impact">
+              <dt>Impact</dt>
+              <dd>Proactive alerting on a hardened PostgreSQL stack running under continuous load.</dd>
+            </dl>
+            <ul class="case-stack">
+              <li>PostgreSQL</li><li>Observability</li><li>Alerting</li>
+            </ul>
+          </article>
 
-        <article class="entry entry--work">
-          <div class="entry-year">2024</div>
-          <div class="entry-body">
-            <h3>Ministry of Creative Economy</h3>
-            <p class="entry-meta">Public Landing Page · Internal Dashboard</p>
-            <p>
+          <article class="case surface">
+            <header class="case-head">
+              <span class="case-year">2024</span>
+              <span class="case-cat">Government</span>
+            </header>
+            <h3 class="case-title">Ministry of Creative Economy</h3>
+            <p class="case-meta">Public Landing Page · Internal Dashboard</p>
+            <p class="case-body">
               A public-facing landing page and internal dashboard built on PHP
               and React. Redis-backed caching and queue workers behind Nginx
               kept the platform responsive through launch traffic.
             </p>
-            <div class="entry-tech">
-              <span>PHP</span><span>React</span><span>Redis</span><span>Nginx</span>
-            </div>
-          </div>
-        </article>
+            <dl class="case-impact">
+              <dt>Impact</dt>
+              <dd>Held steady under launch-day traffic with cached reads and queued writes.</dd>
+            </dl>
+            <ul class="case-stack">
+              <li>PHP</li><li>React</li><li>Redis</li><li>Nginx</li>
+            </ul>
+          </article>
 
-        <article class="entry entry--work">
-          <div class="entry-year">2022</div>
-          <div class="entry-body">
-            <h3>Tokopedia · Antibot &amp; Risk Device</h3>
-            <p class="entry-meta">Fraud Prevention Platform</p>
-            <p>
+          <article class="case surface">
+            <header class="case-head">
+              <span class="case-year">2022</span>
+              <span class="case-cat">E-commerce</span>
+            </header>
+            <h3 class="case-title">Tokopedia · Antibot &amp; Risk Device</h3>
+            <p class="case-meta">Fraud Prevention Platform</p>
+            <p class="case-body">
               A fraud prevention system protecting one of Indonesia's largest
               e-commerce platforms. Built in Go with NSQ for message queues,
               a React frontend for investigators, and Elasticsearch for
               forensic search across events.
             </p>
-            <div class="entry-tech">
-              <span>Go</span><span>NSQ</span><span>React</span><span>Elasticsearch</span><span>Ansible</span>
-            </div>
-          </div>
-        </article>
+            <dl class="case-impact">
+              <dt>Impact</dt>
+              <dd>Real-time risk scoring with searchable event forensics for investigators.</dd>
+            </dl>
+            <ul class="case-stack">
+              <li>Go</li><li>NSQ</li><li>React</li><li>Elasticsearch</li><li>Ansible</li>
+            </ul>
+          </article>
 
-        <article class="entry entry--work">
-          <div class="entry-year">2020</div>
-          <div class="entry-body">
-            <h3>Telkomsel · Data Pipeline</h3>
-            <p class="entry-meta">End-to-end Streaming Infrastructure</p>
-            <p>
+          <article class="case surface">
+            <header class="case-head">
+              <span class="case-year">2020</span>
+              <span class="case-cat">Telco</span>
+            </header>
+            <h3 class="case-title">Telkomsel · Data Pipeline</h3>
+            <p class="case-meta">End-to-end Streaming Infrastructure</p>
+            <p class="case-body">
               Designed and built an end-to-end data pipeline for Indonesia's
               largest telco. Kafka for streaming, ClickHouse for analytics at
               rest, and Apache NiFi orchestrating the data flow between them.
             </p>
-            <div class="entry-tech">
-              <span>Kafka</span><span>ClickHouse</span><span>Apache NiFi</span><span>Python</span><span>Docker</span>
+            <dl class="case-impact">
+              <dt>Impact</dt>
+              <dd>Streaming to analytics in a single pipeline operated by one team.</dd>
+            </dl>
+            <ul class="case-stack">
+              <li>Kafka</li><li>ClickHouse</li><li>Apache NiFi</li><li>Python</li><li>Docker</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="section-eyebrow">Experience</span>
+          <h2 class="section-title">Where I've worked.</h2>
+        </header>
+
+        <ol class="roles">
+          <li class="role">
+            <span class="role-year">2026 -</span>
+            <div class="role-body">
+              <h3 class="role-title">Principal Engineer</h3>
+              <p class="role-org">Bangunindo Teknusa Jaya</p>
+              <p>
+                Defining technical vision and long-term architecture strategy
+                across the engineering organization. Leading architecture
+                reviews, driving cross-team alignment on standards and patterns,
+                mentoring senior and lead engineers.
+              </p>
             </div>
-          </div>
-        </article>
+          </li>
+          <li class="role">
+            <span class="role-year">2023 - 26</span>
+            <div class="role-body">
+              <h3 class="role-title">Backend Lead</h3>
+              <p class="role-org">Bangunindo Teknusa Jaya</p>
+              <p>
+                Led 39 backend and data engineers across multiple teams and
+                projects. Architected systems for every new engagement, built a
+                centralized alerting platform across all company services, and
+                drove engineering standards company-wide.
+              </p>
+            </div>
+          </li>
+          <li class="role">
+            <span class="role-year">2022 - 23</span>
+            <div class="role-body">
+              <h3 class="role-title">Software Engineer</h3>
+              <p class="role-org">Tokopedia</p>
+              <p>
+                Shipped features on high-traffic services, configured prescale
+                for major events and load tests, led tech improvement
+                initiatives, and set up Jenkins CI/CD pipelines.
+              </p>
+            </div>
+          </li>
+          <li class="role">
+            <span class="role-year">2021 - 22</span>
+            <div class="role-body">
+              <h3 class="role-title">Technical Lead</h3>
+              <p class="role-org">Bangunindo Teknusa Jaya</p>
+              <p>
+                Designed architectures and VM dimensioning for client
+                infrastructure. Managed small teams across multiple concurrent
+                projects. Built systems from scratch in Go and Python.
+              </p>
+            </div>
+          </li>
+          <li class="role">
+            <span class="role-year">2020 - 21</span>
+            <div class="role-body">
+              <h3 class="role-title">Backend Developer</h3>
+              <p class="role-org">Bangunindo Teknusa Jaya</p>
+              <p>
+                Built backend features and services in Go and Python.
+              </p>
+            </div>
+          </li>
+          <li class="role">
+            <span class="role-year">2019</span>
+            <div class="role-body">
+              <h3 class="role-title">Oracle Developer</h3>
+              <p class="role-org">Visionet Data Internasional</p>
+              <p>
+                Developed and supported Oracle-based applications, shipping
+                new user requirements and keeping production systems healthy.
+              </p>
+            </div>
+          </li>
+        </ol>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Experience -->
-  <section class="section" id="experience">
-    <div class="wrap">
-      <div class="section-header">
-        <span class="section-label">Experience</span>
-        <h2 class="section-title">Where I've worked.</h2>
+    <!-- Toolkit -->
+    <section class="section" id="toolkit">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="section-eyebrow">Toolkit</span>
+          <h2 class="section-title">What I reach for.</h2>
+        </header>
+
+        <dl class="skills">
+          <div class="skill">
+            <dt>Languages</dt>
+            <dd><span>Go</span><span>Python</span><span>PHP</span><span>JavaScript</span></dd>
+          </div>
+          <div class="skill">
+            <dt>Data</dt>
+            <dd><span>PostgreSQL</span><span>TimescaleDB</span><span>ClickHouse</span><span>Redis</span><span>Elasticsearch</span></dd>
+          </div>
+          <div class="skill">
+            <dt>Infra</dt>
+            <dd><span>Google Cloud</span><span>Kubernetes</span><span>Docker</span><span>Linux</span><span>Nginx</span><span>Hadoop</span></dd>
+          </div>
+          <div class="skill">
+            <dt>Streaming</dt>
+            <dd><span>Kafka</span><span>NSQ</span><span>Apache NiFi</span></dd>
+          </div>
+          <div class="skill">
+            <dt>Observability</dt>
+            <dd><span>Zabbix</span><span>Prometheus</span><span>Grafana</span></dd>
+          </div>
+          <div class="skill">
+            <dt>Delivery</dt>
+            <dd><span>Jenkins</span><span>Ansible</span><span>Git</span></dd>
+          </div>
+        </dl>
       </div>
+    </section>
 
-      <div class="timeline">
-        <article class="entry">
-          <div class="entry-year">2026 -</div>
-          <div class="entry-body">
-            <h3>Principal Engineer</h3>
-            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
-            <p>
-              Defining technical vision and long-term architecture strategy
-              across the engineering organization. Leading architecture
-              reviews, driving cross-team alignment on standards and patterns,
-              mentoring senior and lead engineers.
-            </p>
-          </div>
-        </article>
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+      <div class="wrap">
+        <header class="section-head">
+          <span class="section-eyebrow">Certifications</span>
+          <h2 class="section-title">Credentials.</h2>
+        </header>
 
-        <article class="entry">
-          <div class="entry-year">2023 - 26</div>
-          <div class="entry-body">
-            <h3>Backend Lead</h3>
-            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
-            <p>
-              Led 39 backend and data engineers across multiple teams and
-              projects. Architected systems for every new engagement, built a
-              centralized alerting platform across all company services, and
-              drove engineering standards company-wide.
-            </p>
-          </div>
-        </article>
-
-        <article class="entry">
-          <div class="entry-year">2022 - 23</div>
-          <div class="entry-body">
-            <h3>Software Engineer</h3>
-            <p class="entry-meta">Tokopedia</p>
-            <p>
-              Shipped features on high-traffic services, configured prescale
-              for major events and load tests, led tech improvement
-              initiatives, and set up Jenkins CI/CD pipelines.
-            </p>
-          </div>
-        </article>
-
-        <article class="entry">
-          <div class="entry-year">2021 - 22</div>
-          <div class="entry-body">
-            <h3>Technical Lead</h3>
-            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
-            <p>
-              Designed architectures and VM dimensioning for client
-              infrastructure. Managed small teams across multiple concurrent
-              projects. Built systems from scratch in Go and Python.
-            </p>
-          </div>
-        </article>
-
-        <article class="entry">
-          <div class="entry-year">2020 - 21</div>
-          <div class="entry-body">
-            <h3>Backend Developer</h3>
-            <p class="entry-meta">Bangunindo Teknusa Jaya</p>
-            <p>
-              Built backend features and services in Go and Python.
-            </p>
-          </div>
-        </article>
-
-        <article class="entry">
-          <div class="entry-year">2019</div>
-          <div class="entry-body">
-            <h3>Oracle Developer</h3>
-            <p class="entry-meta">Visionet Data Internasional</p>
-            <p>
-              Developed and supported Oracle-based applications, shipping
-              new user requirements and keeping production systems healthy.
-            </p>
-          </div>
-        </article>
+        <ul class="certs">
+          <li class="cert surface">
+            <span class="cert-year">2025</span>
+            <h4 class="cert-title">Professional Cloud Architect</h4>
+            <span class="cert-issuer">Google Cloud Certified</span>
+          </li>
+          <li class="cert surface">
+            <span class="cert-year">2025</span>
+            <h4 class="cert-title">PowerEdge Foundations v2</h4>
+            <span class="cert-issuer">Dell Technologies</span>
+          </li>
+          <li class="cert surface">
+            <span class="cert-year">2024</span>
+            <h4 class="cert-title">Certified Specialist</h4>
+            <span class="cert-issuer">Zabbix</span>
+          </li>
+          <li class="cert surface">
+            <span class="cert-year">2020</span>
+            <h4 class="cert-title">Full Stack JavaScript Immersive</h4>
+            <span class="cert-issuer">Hacktiv8</span>
+          </li>
+          <li class="cert surface">
+            <span class="cert-year">2018</span>
+            <h4 class="cert-title">Database Administration Fundamentals</h4>
+            <span class="cert-issuer">Microsoft Technology Associate</span>
+          </li>
+        </ul>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Toolkit -->
-  <section class="section" id="toolkit">
-    <div class="wrap">
-      <div class="section-header">
-        <span class="section-label">Toolkit</span>
-        <h2 class="section-title">What I reach for.</h2>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <header class="section-head">
+        <span class="section-eyebrow">Contact</span>
+        <h2 class="contact-title">
+          Let's build<br>
+          something <em>together.</em>
+        </h2>
+      </header>
+      <p class="contact-text">
+        Open to conversations about system design, engineering leadership,
+        or a project you're trying to get off the ground.
+      </p>
+      <div class="hero-actions">
+        <a href="mailto:susantoh41@gmail.com" class="btn btn-primary">
+          susantoh41@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener" class="btn btn-ghost">
+          Connect on LinkedIn
+        </a>
       </div>
-
-      <div class="timeline">
-        <article class="entry entry--toolkit">
-          <div class="entry-year">Languages</div>
-          <div class="toolkit-items">
-            <span>Go</span><span>Python</span><span>PHP</span><span>JavaScript</span>
-          </div>
-        </article>
-
-        <article class="entry entry--toolkit">
-          <div class="entry-year">Data</div>
-          <div class="toolkit-items">
-            <span>PostgreSQL</span><span>TimescaleDB</span><span>ClickHouse</span><span>Redis</span><span>Elasticsearch</span>
-          </div>
-        </article>
-
-        <article class="entry entry--toolkit">
-          <div class="entry-year">Infra</div>
-          <div class="toolkit-items">
-            <span>Google Cloud</span><span>Kubernetes</span><span>Docker</span><span>Linux</span><span>Nginx</span><span>Hadoop</span>
-          </div>
-        </article>
-
-        <article class="entry entry--toolkit">
-          <div class="entry-year">Streaming</div>
-          <div class="toolkit-items">
-            <span>Kafka</span><span>NSQ</span><span>Apache NiFi</span>
-          </div>
-        </article>
-
-        <article class="entry entry--toolkit">
-          <div class="entry-year">Observability</div>
-          <div class="toolkit-items">
-            <span>Zabbix</span><span>Prometheus</span><span>Grafana</span>
-          </div>
-        </article>
-
-        <article class="entry entry--toolkit">
-          <div class="entry-year">Delivery</div>
-          <div class="toolkit-items">
-            <span>Jenkins</span><span>Ansible</span><span>Git</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Certifications -->
-  <section class="section" id="certifications">
-    <div class="wrap">
-      <div class="section-header">
-        <span class="section-label">Certifications</span>
-        <h2 class="section-title">Credentials.</h2>
-      </div>
-
-      <div class="timeline">
-        <article class="entry entry--cert">
-          <div class="entry-year">2025</div>
-          <div class="entry-body">
-            <h4>Professional Cloud Architect</h4>
-            <span>Google Cloud Certified</span>
-          </div>
-        </article>
-
-        <article class="entry entry--cert">
-          <div class="entry-year">2025</div>
-          <div class="entry-body">
-            <h4>PowerEdge Foundations v2</h4>
-            <span>Dell Technologies</span>
-          </div>
-        </article>
-
-        <article class="entry entry--cert">
-          <div class="entry-year">2024</div>
-          <div class="entry-body">
-            <h4>Certified Specialist</h4>
-            <span>Zabbix</span>
-          </div>
-        </article>
-
-        <article class="entry entry--cert">
-          <div class="entry-year">2020</div>
-          <div class="entry-body">
-            <h4>Full Stack JavaScript Immersive</h4>
-            <span>Hacktiv8</span>
-          </div>
-        </article>
-
-        <article class="entry entry--cert">
-          <div class="entry-year">2018</div>
-          <div class="entry-body">
-            <h4>Database Administration Fundamentals</h4>
-            <span>Microsoft Technology Associate</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h2 class="contact-title">
-      Let's build<br>
-      something <em>together.</em>
-    </h2>
-    <p class="contact-text">
-      I'm always open to a conversation, whether it's about system design,
-      engineering leadership, or a project you're trying to get off the ground.
-      The inbox is open.
-    </p>
-    <div class="hero-actions">
-      <a href="mailto:susantoh41@gmail.com" class="btn btn-primary">
-        susantoh41@gmail.com
-      </a>
-      <a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener" class="btn btn-ghost">
-        Connect on LinkedIn
-      </a>
-    </div>
-    <div class="contact-links">
-      <a href="https://github.com/herizsh" target="_blank" rel="noopener" class="contact-link">GitHub</a>
-      <a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
-      <a href="https://twitter.com/pacar_iu" target="_blank" rel="noopener" class="contact-link">Twitter</a>
-      <a href="mailto:susantoh41@gmail.com" class="contact-link">Email</a>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <span>© <span id="year">2026</span> Heri Susanto</span>
-    <span>Designed &amp; built in Jakarta</span>
+    <div class="footer-top">
+      <div class="footer-identity">
+        <span class="footer-logo">Heri.</span>
+        <span class="footer-role">Principal Engineer · Jakarta, Indonesia</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/herizsh" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/heri-susanto-id" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://twitter.com/pacar_iu" target="_blank" rel="noopener">Twitter</a></li>
+        <li><a href="mailto:susantoh41@gmail.com">Email</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Heri Susanto</span>
+      <span>Designed &amp; built in Jakarta</span>
+    </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BM7W46GR0V"></script>
@@ -417,7 +423,6 @@
     gtag('js', new Date());
     gtag('config', 'G-BM7W46GR0V');
   </script>
-  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

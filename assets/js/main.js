@@ -20,20 +20,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
   });
 });
 
-// ===== Scroll reveal =====
-const revealEls = document.querySelectorAll('.reveal');
-if (revealEls.length) {
-  const revealObs = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 60);
-        revealObs.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-  revealEls.forEach(el => revealObs.observe(el));
-}
-
 // ===== Active nav link =====
 const sections = document.querySelectorAll('section[id], header[id]');
 const navLinks = document.querySelectorAll('.nav-link');
